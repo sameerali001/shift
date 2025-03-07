@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container-fluid.bg-dark {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #fff;
+  }
+  
+  h1, h3, h5 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Form Styling */
+  .bg-white {
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .bg-white:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-control {
+    border: 1px solid #004e92;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    border-color: #0056d6;
+    box-shadow: 0 0 5px rgba(0, 86, 214, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #004e92;
+    border-color: #004e92;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056d6;
+    transform: scale(1.05);
+  }
+  
+  /* Carousel Styling */
+  .carousel-inner img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-inner img:hover {
+    transform: scale(1.1);
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #004e92;
+    border-radius: 50%;
+  }
+  
+  /* Industries Section */
+  .container .row.text-center h5 {
+    color: #004e92;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .container .row.text-center h5:hover {
+    color: #0056d6;
+    text-decoration: underline;
+  }
+  
+  /* Contact Section */
+  .container.text-center {
+    background: linear-gradient(to bottom, #004e92, #000428);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .container.text-center .btn-primary {
+    background-color: #fff;
+    color: #004e92;
+    font-weight: bold;
+  }
+  
+  .container.text-center .btn-primary:hover {
+    background-color: #0056d6;
+    color: #fff;
+  }
+  
+  /* FAQ Section */
+  .container.my-5 .col-md-6 img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container.my-5 .col-md-6 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container.my-5 .col-md-6 a {
+    text-decoration: none;
+    color: #004e92;
+  }
+  
+  .container.my-5 .col-md-6 a:hover {
+    text-decoration: underline;
+    color: #0056d6;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #000428;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer a {
+    color: #0056d6;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

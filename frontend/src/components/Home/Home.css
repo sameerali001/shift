@@ -1,0 +1,137 @@
+/* Home.css */
+
+/* Header Section */
+.header-container {
+  height: 400px;
+  background-image: url('https://www.shutterstock.com/image-vector/3d-vector-delivery-van-box-600nw-2176128311.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  max-width: 90%;
+  width: 600px;
+  padding: 1rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+  
+  /* City Selection Section */
+  .bg-primary {
+    background-color: #007bff;
+  }
+  
+  .bg-primary select {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .bg-primary button {
+    margin-top: 1rem;
+  }
+  
+  /* Filter Section */
+  .d-flex button {
+    margin: 0 10px;
+  }
+  
+  .d-flex .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .d-flex .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .d-flex .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .d-flex .btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+  }
+  
+  /* Service Cards */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-body .display-1 {
+    font-size: 3rem;
+  }
+  
+  .card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-body .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* Estimate Modal */
+  .modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modal-body {
+    padding: 2rem;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #ddd;
+  }
+  
+  .modal-footer .btn {
+    border-radius: 8px;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .modal-body input,
+    .modal-body select {
+      font-size: 0.9rem;
+    }
+  }
+
+  
+  
+  /* Footer Section */
+  /* footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #6c757d;
+  } */
+  
